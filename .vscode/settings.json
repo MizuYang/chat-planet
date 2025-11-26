@@ -1,4 +1,16 @@
 {
+  // Tailwind CSS 擴充功能設定
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.classAttributes": ["class", "ui"],
+  "tailwindCSS.experimental.classRegex": [
+    ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+
   // 編輯器基本設定
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
