@@ -62,6 +62,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
+  // CSS 驗證設定 - 停用 @apply 等 Tailwind 指令的警告
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+
   // 檔案設定
   "files.eol": "\n",
   "files.insertFinalNewline": true,

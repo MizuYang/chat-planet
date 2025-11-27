@@ -1,9 +1,9 @@
-<script setup lang="ts">
-import { CalendarDate } from "@internationalized/date";
-
-const value = shallowRef(new CalendarDate(2022, 2, 3));
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <UCalendar v-model="value" />
+  <div>
+    <LayoutsHeader />
+    <main></main>
+    <footer></footer>
+  </div>
 </template>
